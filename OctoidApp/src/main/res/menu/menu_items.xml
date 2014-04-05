@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListViewTasksActivity" >
+
+    <item android:id="@+id/action_remove_tasks"
+        android:title="@string/action_remove_tasks"
+        android:orderInCategory="1"
+        android:showAsAction="never" />
+
+</menu>

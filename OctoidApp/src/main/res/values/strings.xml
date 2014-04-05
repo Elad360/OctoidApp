@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Octoid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_remove_tasks">Remove completed tasks</string>
+    <string name="action_about">About</string>
+    <string name="button_done">SAVE</string>
+    <string name="button_add_task">Add Task</string>
+    <string name="title_activity_create_task">Create new task</string>
+    <string name="task_description">Enter task title...</string>
+    <string name="row_divider">Divider</string>
+    <string name="button_create">CREATE</string>
+    <string name="enter_location">Enter location...</string>
+    <string name="set_reminder">Remind me</string>
+    <string name="google_api_debug_key">AIzaSyDIyVEr8wFe0E5IA5QJT5wbmO2NdJX5Cjw</string>
+    <string name="google_api_release_key">AIzaSyAnLofZJS8CbR5Kp2DSY7P-S3yU6FWEVPc</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateTaskActivity"
+    android:orientation="vertical">
+
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:singleLine="true"
+        android:hint="@string/task_description"
+        android:imeOptions="actionDone"/>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    <ImageButton
+        android:id="@+id/button_select_date"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:background="@drawable/button_shape"
+        android:src="@drawable/date_button"/>
+
+    <ImageButton
+        android:id="@+id/button_select_time"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:background="@drawable/button_shape"
+        android:src="@drawable/time_button"/>
+
+    <ImageView
+        android:id="@+id/divider"
+        android:contentDescription="@string/row_divider"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8sp"
+        android:background="#3B3B3B" />
+
+    <ImageButton
+        android:id="@+id/button_set_reminder"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:background="@drawable/button_shape"
+        android:src="@drawable/alarm_button"/>
+
+    </TableRow>
+
+
+
+    <ImageButton
+        android:id="@+id/button_set_geo_fence"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Geo Fence"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/globe_button"/>
+
+    <Button
+        android:id="@+id/button_create_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/button_create"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>
